@@ -13,11 +13,18 @@
     </h1>
     <div class="text-center">
         <form id="form" mb="4">
-            <input type="button" value="生成!" onclick="RandomNumber()">
+            <input type="button" class="btn btn-outline-danger active" value="生成!" onclick="RandomNumber()">
             <input type="number" id="maxn" value="6" placeholder="乱数最大値を入力">
         </form>
         <br>
-        <span id="out"></span>
+        <h1>
+            <code>
+                <!--結果出力-->
+                <span id="out">
+                    0
+                </span>
+            </code>
+        </h1>
     </div>
     <footer class="text-center">
         Create by <a href="https://nakatai.ga">Nakatai</a>.
