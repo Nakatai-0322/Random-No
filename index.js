@@ -1,6 +1,5 @@
 /*
     chance.jsというライブラリを使用させてもらっています。
-    
 */
 function RandomNumber() {
     let max = Number(document.getElementById("maxn").value)
