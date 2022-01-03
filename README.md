@@ -12,4 +12,4 @@ https://opensource.org/licenses/mit-license.php
 
 MITライセンスを適用しています。
 
-適用される条件等については[LICENSE](https://raw.githubusercontent.com/Nakatai-0322/Random-No/main/LICENSE)ファイルを参照。
+適用される条件等については[リーガルコード](https://raw.githubusercontent.com/Nakatai-0322/Random-No/main/LICENSE)を参照。
