@@ -12,6 +12,6 @@ function RandomNumber() {
     let Randon = chance.natural(
         {min: min , max: max}
     );
-    document.getElementById("out").innerHTML = n;
+    document.getElementById("out").innerHTML = Randon;
     console.log(Randon)
 }
