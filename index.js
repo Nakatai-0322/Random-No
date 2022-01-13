@@ -9,7 +9,7 @@ https://opensource.org/licenses/mit-license.php
 function RandomNumber() {
     const min = document.getElementById("minn").value
     const max = document.getElementById("maxn").value
-    const Randon = chance.natural({min: min , max: max});
-    document.getElementById("out").innerHTML = Randon;
-    console.log(Randon)
+    const Randomn = chance.natural({min: min , max: max});
+    document.getElementById("out").innerHTML = Randomn;
+    console.log(Randomn)
 }
