@@ -10,6 +10,7 @@ function RandomNumber() {
     const min = document.getElementById("minn").value;
     const max = document.getElementById("maxn").value;
     const Randomn = chance.natural({min: min, max: max});
+
     document.getElementById("out").innerHTML = Randomn;
     console.log(Randomn);
 }
