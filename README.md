@@ -10,7 +10,9 @@ https://opensource.org/licenses/mit-license.php
 
 ## デモ
 
-![Demo](https://i.imgur.com/tmp7ELf.gif)
+![Demo1](https://i.imgur.com/tmp7ELf.gif)
+
+![Demo2](https://i.imgur.com/oD7a5CR.gif)
 
 ## ライセンス
 
