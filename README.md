@@ -8,6 +8,10 @@ https://opensource.org/licenses/mit-license.php
 
 簡易な乱数生成器です。
 
+## デモ
+
+![Demo](https://i.imgur.com/tmp7ELf.gif)
+
 ## ライセンス
 
 MITライセンスを適用しています。
