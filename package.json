@@ -4,7 +4,7 @@
     "description": "A simple random number generator.",
     "main": "index.js",
     "directories": {
-    "lib": "lib"
+        "lib": "lib"
     },
     "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

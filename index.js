@@ -5,6 +5,10 @@ Copyright (c) 2022~Present Nakatai.
 
 This software is released under the MIT License.
 https://opensource.org/licenses/mit-license.php
+
+This software used "bootstrap" and "chance.js".
+
+and their software available under "MIT license".
 */
 function RandomNumber() {
     const min = document.getElementById("minn").value;
