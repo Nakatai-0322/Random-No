@@ -11,12 +11,13 @@ This software used "bootstrap" and "chance.js".
 and their software available under "MIT license".
 */
 
-import("//cdn.jsdelivr.net/npm/chance@1.1.8/chance.min.js");
+import ("//cdn.jsdelivr.net/npm/chance@1.1.8/chance.min.js");
 
 function RandomNumber() {
-    const min = document.getElementById("minn").value;
-    const max = document.getElementById("maxn").value;
-    const Randomn = chance.natural({min: min, max: max});
+    const Randomn = chance.natural({
+        min: Number(document.getElementById("minn").value),
+        max: Number(document.getElementById("maxn").value)
+    });
 
     document.getElementById("out").innerHTML = Randomn;
     console.log(Randomn);
