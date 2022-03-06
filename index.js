@@ -11,7 +11,7 @@ This software used "bootstrap" and "chance.js".
 and their software available under "MIT license".
 */
 
-import ("//cdn.jsdelivr.net/npm/chance@1.1.8/chance.min.js");
+import ("//cdn.jsdelivr.net/npm/chance@latest/chance.min.js");
 
 function RandomNumber() {
     const Randomn = chance.natural({
