@@ -10,6 +10,9 @@ This software used "bootstrap" and "chance.js".
 
 and their software available under "MIT license".
 */
+let saveCheckbox = document.getElementById('saveCheckbox');
+saveCheckbox.addEventListener('change', valueChange);
+
 function RandomNumber() {
     const Randomn = chance.natural({
         min: Number(document.getElementById("minn").value),
@@ -22,5 +25,8 @@ function RandomNumber() {
 };
 
 function exporttoHTML(Num) {
-    
+    var textbox_element = document.getElementById('HistoryNum');
+    var new_element = document.createElement('code');
+    new_element.textContent = Num + " ";
+    textbox_element.appendChild(new_element);
 }
