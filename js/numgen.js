@@ -10,8 +10,6 @@ This software used "bootstrap" and "chance.js".
 
 and their software available under "MIT license".
 */
-import ("//cdn.jsdelivr.net/npm/chance@latest/chance.min.js");
-
 function RandomNumber() {
     const Randomn = chance.natural({
         min: Number(document.getElementById("minn").value),
