@@ -17,5 +17,10 @@ function RandomNumber() {
     });
 
     document.getElementById("out").innerHTML = Randomn;
+    exporttoHTML(Randomn)
     console.log(Randomn);
+};
+
+function exporttoHTML(Num) {
+    
 }
