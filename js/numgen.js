@@ -24,10 +24,10 @@ function RandomNumber() {
 };
 
 function exporttoHTML(Num) {
-    var textbox_element = document.getElementById('HistoryNum');
+    var backlog_element = document.getElementById('HistoryNum');
     var new_element = document.createElement('code');
     new_element.textContent = Num + " ";
-    textbox_element.appendChild(new_element);
+    backlog_element.appendChild(new_element);
     if(boolofcons1 === false){
         console.clear()
         document.getElementById("footer-1").remove();
