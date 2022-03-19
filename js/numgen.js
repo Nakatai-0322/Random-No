@@ -34,3 +34,8 @@ function exporttoHTML(Num) {
         boolofcons1 = true
     }else{}
 }
+
+function delbacklog(){
+    document.getElementById("HistoryNum").remove
+    return false;
+}
