@@ -29,6 +29,7 @@ function exporttoHTML(Num) {
     new_element.textContent = Num + " ";
     textbox_element.appendChild(new_element);
     if(boolofcons1 === false){
+        console.clear()
         document.getElementById("footer-1").remove();
         boolofcons1 = true
     }else{}
