@@ -24,16 +24,20 @@ function RandomNumber() {
     document.getElementById("out").innerHTML = Randomn;
     exporttoHTML(Randomn);
     console.log(Randomn);
+    if(HistoryNum == null || undefined){
+        HistoryNum = document.createElement("div");
+        HistoryMaster.appendChild(HistoryNum);
+    };
 };
 
 function exporttoHTML(Num) {
     HistoryMaster = document.getElementById("HistoryMaster");
     HistoryNum = document.getElementById('HistoryNum');
-    if(HistoryNum === null || undefined){
+    const new_element = document.createElement('code');
+    if(HistoryNum == null || undefined){
         HistoryNum = document.createElement("div");
         HistoryMaster.appendChild(HistoryNum);
     };
-    var new_element = document.createElement('code');
     new_element.textContent = Num + " ";
     HistoryNum.appendChild(new_element);
     if(boolofcons1 === false){
