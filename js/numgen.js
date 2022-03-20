@@ -11,6 +11,9 @@ This software used "bootstrap" and "chance.js".
 and their software available under "MIT license".
 */
 let boolofcons1 = false
+let HistoryMaster
+let HistoryNum
+let newhistory
 
 function RandomNumber() {
     const Randomn = chance.natural({
@@ -24,18 +27,25 @@ function RandomNumber() {
 };
 
 function exporttoHTML(Num) {
-    var backlog_element = document.getElementById('HistoryNum');
+    HistoryMaster = document.getElementById("HistoryMaster")
+    if(HistoryNum == null || HistoryNum == undefined){
+        HistoryNum = document.createElement("div");
+        HistoryMaster.appendChild(HistoryNum);
+    }else{
+        HistoryNum = document.getElementById('HistoryNum');
+    }
     var new_element = document.createElement('code');
     new_element.textContent = Num + " ";
-    backlog_element.appendChild(new_element);
+    HistoryMaster.appendChild(HistoryNum);
+    HistoryNum.appendChild(new_element)
     if(boolofcons1 === false){
         console.clear()
         document.getElementById("footer-1").remove();
         boolofcons1 = true
-    }else{}
+    };
 }
 
 function delbacklog(){
-    document.getElementById("HistoryNum").remove
+    HistoryNum.remove()
     return false;
 }
