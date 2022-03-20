@@ -28,11 +28,10 @@ function RandomNumber() {
 
 function exporttoHTML(Num) {
     HistoryMaster = document.getElementById("HistoryMaster")
-    if(HistoryNum == null || HistoryNum == undefined){
-        HistoryNum = document.createElement("div");
-        HistoryMaster.appendChild(HistoryNum);
-    }else{
-        HistoryNum = document.getElementById('HistoryNum');
+    HistoryNum = document.getElementById('HistoryNum');
+    if(HistoryNum === null || undefined){
+        HistoryNum = document.createElement("div")
+        HistoryMaster.appendChild(HistoryNum)
     }
     var new_element = document.createElement('code');
     new_element.textContent = Num + " ";
