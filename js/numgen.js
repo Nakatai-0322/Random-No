@@ -35,7 +35,6 @@ function exporttoHTML(Num) {
     }
     var new_element = document.createElement('code');
     new_element.textContent = Num + " ";
-    HistoryMaster.appendChild(HistoryNum);
     HistoryNum.appendChild(new_element)
     if(boolofcons1 === false){
         console.clear()
