@@ -24,7 +24,7 @@ function RandomNumber() {
     document.getElementById("out").innerHTML = Randomn;
     exporttoHTML(Randomn);
     console.log(Randomn);
-    if(HistoryNum == null || undefined){
+    if (HistoryNum == null || undefined) {
         HistoryNum = document.createElement("div");
         HistoryMaster.appendChild(HistoryNum);
     };
@@ -34,20 +34,20 @@ function exporttoHTML(Num) {
     HistoryMaster = document.getElementById("HistoryMaster");
     HistoryNum = document.getElementById('HistoryNum');
     const new_element = document.createElement('code');
-    if(HistoryNum == null || undefined){
+    if (HistoryNum == null || undefined) {
         HistoryNum = document.createElement("div");
         HistoryMaster.appendChild(HistoryNum);
     };
     new_element.textContent = Num + " ";
     HistoryNum.appendChild(new_element);
-    if(boolofcons1 === false){
+    if (boolofcons1 === false) {
         console.clear();
         document.getElementById("footer-1").remove();
         boolofcons1 = true;
     };
 }
 
-function delbacklog(){
+function delbacklog() {
     HistoryNum.remove();
     return false;
 }
