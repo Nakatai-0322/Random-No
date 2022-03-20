@@ -34,7 +34,7 @@ and their software available under "MIT license".
             <input type="number" id="maxn" value="6" placeholder="乱数最大値を入力">
             <input type="number" id="minn" value="0" placeholder="乱数最小値を入力">
             <br>
-            <button onclick="delbacklog()">バックログ削除</button>
+            <input type="button" value="バックログ削除" onclick="delbacklog();">
         </form>
         <br>
         <code>
@@ -45,7 +45,9 @@ and their software available under "MIT license".
             </h3>
         </code>
         <br>
-        <span id="HistoryNum" class="HistoryNum"></span>
+        <div id="HistoryMaster">
+            <div id="HistoryNum" class="HistoryNum"></div>
+        </div>
     </div>
     <footer class="text-center" id="footer-1">
         Create by <a href="https://nakatai.ga">Nakatai</a>.
