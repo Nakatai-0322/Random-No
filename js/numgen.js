@@ -31,6 +31,7 @@ function RandomNumber() {
 };
 
 function exporttoHTML(Num) {
+    document.getElementById("footer-1").remove();
     HistoryNum = document.getElementById("HistoryNum")
     const new_element = document.createElement('code');
     new_element.textContent = Num + " ";
