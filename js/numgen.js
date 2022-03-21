@@ -20,7 +20,6 @@ function RandomNumber() {
         min: Number(document.getElementById("minn").value),
         max: Number(document.getElementById("maxn").value)
     });
-
     document.getElementById("out").innerHTML = Randomn;
     exporttoHTML(Randomn);
     console.log(Randomn);
@@ -28,26 +27,18 @@ function RandomNumber() {
         HistoryNum = document.createElement("div");
         HistoryMaster.appendChild(HistoryNum);
     };
+    return null;
 };
 
 function exporttoHTML(Num) {
-    HistoryMaster = document.getElementById("HistoryMaster");
-    HistoryNum = document.getElementById('HistoryNum');
+    HistoryNum = document.getElementById("HistoryNum")
     const new_element = document.createElement('code');
-    if (HistoryNum == null || undefined) {
-        HistoryNum = document.createElement("div");
-        HistoryMaster.appendChild(HistoryNum);
-    };
     new_element.textContent = Num + " ";
     HistoryNum.appendChild(new_element);
-    if (boolofcons1 === false) {
-        console.clear();
-        document.getElementById("footer-1").remove();
-        boolofcons1 = true;
-    };
+    return null;
 }
 
 function delbacklog() {
-    HistoryNum.remove();
-    return false;
+    location.reload(false);
+    return null;
 }
