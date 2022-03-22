@@ -4,6 +4,7 @@ Copyright (c) 2021~Present Nakatai.
 This software is released under the MIT License.
 https://opensource.org/licenses/mit-license.php
 -->
+
 # Random-No
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNakatai-0322%2FRandom-No.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FNakatai-0322%2FRandom-No?ref=badge_shield)
