@@ -31,7 +31,7 @@ function RandomNumber() {
 
 function exporttoHTML(Num) {
     HistoryNum = document.getElementById("HistoryNum");
-    const new_element = document.createElement('code');
+    const new_element = document.createElement("code");
     new_element.textContent = Num + " ";
     HistoryNum.appendChild(new_element);
     if (boolofcons1 === false){
