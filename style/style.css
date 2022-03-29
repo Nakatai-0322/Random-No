@@ -43,8 +43,7 @@ code,
 }
 
 input {
-    font-family: "Montserrat", "Noto Sans JP";
-    font-weight: normal;
+    font-family: "JetBrains Mono", "Noto Sans JP", monospace;
 }
 
 .numinput {
