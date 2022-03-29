@@ -39,9 +39,9 @@ function exporttoHTML(Num) {
         boolofcons1 = true;
     };
     return null;
-}
+};
 
 function delbacklog() {
     location.reload(false);
     return null;
-}
+};
