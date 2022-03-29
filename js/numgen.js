@@ -11,8 +11,8 @@ This software used "bootstrap" and "chance.js".
 and their software available under "MIT license".
 */
 let boolofcons1 = false;
-let HistoryNum = null;
-let newhistory = null;
+let HistoryNum;
+let newhistory;
 
 function RandomNumber() {
     const Randomn = chance.natural({
