@@ -12,7 +12,7 @@ and their software available under "MIT license".
 */
 let boolofcons1 = false;
 let HistoryNum;
-let newhistory;
+let NewHistory;
 
 function RandomNumber() {
     const Randomn = chance.natural({
@@ -33,7 +33,7 @@ function exporttoHTML(Num) {
     HistoryNum = document.getElementById("HistoryNum");
     const new_element = document.createElement("code");
     new_element.textContent = Num + " ";
-    HistoryNum.appendChild(new_element);
+    HistoryNum.appenedChild(new_element);
     if (boolofcons1 === false){
         document.getElementById("footer-1").remove();
         boolofcons1 = true;
