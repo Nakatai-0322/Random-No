@@ -15,9 +15,11 @@ let HistoryNum;
 let NewHistory;
 
 function RandomNumber() {
+    const minn = Number(document.getElementById("minn").value);
+    const maxn = Number(document.getElementById("maxn").value);
     const Randomn = chance.natural({
-        min: Number(document.getElementById("minn").value),
-        max: Number(document.getElementById("maxn").value)
+        min: minn,
+        max: maxn
     });
     document.getElementById("out").innerHTML = Randomn;
     exporttoHTML(Randomn);
