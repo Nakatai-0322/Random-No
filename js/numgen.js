@@ -31,10 +31,10 @@ function RandomNumber() {
     return null;
 };
 
-function exporttoHTML(Num) {
+function exporttoHTML(arg) {
     HistoryNum = document.getElementById("HistoryNum");
     const new_element = document.createElement("code");
-    new_element.textContent = Num + " ";
+    new_element.textContent = arg + " ";
     HistoryNum.appenedChild(new_element);
     if (boolofcons1 === false){
         document.getElementById("footer-1").remove();
