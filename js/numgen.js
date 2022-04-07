@@ -26,7 +26,6 @@ function RandomNumber() {
     console.log(Randomn);
     if (HistoryNum == null || undefined) {
         HistoryNum = document.createElement("div");
-        HistoryMaster.appendChild(HistoryNum);
     };
     return null;
 };
