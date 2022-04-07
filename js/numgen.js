@@ -43,8 +43,3 @@ function exporttoHTML(arg) {
     };
     return null;
 };
-
-function delbacklog() {
-    location.reload(false);
-    return null;
-};
