@@ -27,7 +27,6 @@ function RandomNumber() {
     if (HistoryNum == null || undefined) {
         HistoryNum = document.createElement("div");
     };
-    return null;
 };
 
 function exporttoHTML(arg) {
@@ -40,5 +39,4 @@ function exporttoHTML(arg) {
         document.getElementById("footer-1").remove();
         boolofcons1 = true;
     };
-    return null;
 };
