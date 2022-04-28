@@ -1,8 +1,8 @@
 <!--
 Random-No
 Copyright (c) 2021~Present Nakatai.
-This software is released under the MIT License.
-https://opensource.org/licenses/mit-license.php
+This software is released under the Apache License.
+https://opensource.org/licenses/Apache-2.0
 -->
 
 # Random-No
@@ -19,7 +19,7 @@ https://opensource.org/licenses/mit-license.php
 
 ## ライセンス
 
-MITライセンスを適用しています。
+Apacheライセンスを適用しています。
 
 適用される条件等については[リーガルコード](https://raw.githubusercontent.com/Nakatai-0322/Random-No/main/LICENSE)を参照ください。
 
