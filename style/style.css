@@ -13,8 +13,11 @@ https://opensource.org/licenses/Apache-2.0
 @import url("//fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 @import url("//fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
-html {
-    font-family: "JetBrains Mono", "Noto Sans JP", sans-serif;
+body {
+    --bs-font-sans-serif: "Montserrat", "Noto Sans JP", sans-serif;
+    --bs-font-monospace: "JetBrains Mono", "Noto Sans JP",  monospace;
+
+    font-family: var(--bs-font-sans-serif);
     text-align: center;
     font-size: 20px;
 };
@@ -26,32 +29,18 @@ p {
 };
 
 .historyNum {
-    font-family: "JetBrains Mono", monospace;
     font-size: 10px;
     font-weight: bold;
 };
 
-.out {
-    font-family: "JetBrains Mono", monospace;
-    font-size: 40px;
-    font-weight: 800;
-};
-
-code, .form {
-    font-family: "JetBrains Mono", monospace;
+code {
+    font-family: var(--bs-font-monospace);
 };
 
 input {
-    font-family: "JetBrains Mono", "Noto Sans JP", monospace;
+    font-family: var(--bs-font-monospace);
 };
 
 .numinput {
     font-weight: 550;
-};
-
-footer {
-    position: absolute;
-    width: 100%;
-    padding: 30px 0;
-    bottom: 0;
 };
