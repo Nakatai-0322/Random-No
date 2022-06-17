@@ -8,7 +8,7 @@ https://opensource.org/licenses/Apache-2.0
 
 This software used "bootstrap" and "chance.js".
 
-and their software available under "Apache license".
+And their software available under "Apache license".
 */
 let boolofcons1 = false;
 let HistoryNum;
