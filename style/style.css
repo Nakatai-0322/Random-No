@@ -20,27 +20,27 @@ body {
     font-family: var(--bs-font-sans-serif);
     text-align: center;
     font-size: 20px;
-};
+}
 
 p {
     font-weight: 600;
     font-size: 20px;
     line-height: 40px;
-};
+}
 
 .historyNum {
     font-size: 10px;
     font-weight: bold;
-};
+}
 
 code {
     font-family: var(--bs-font-monospace);
-};
+}
 
 input {
     font-family: var(--bs-font-monospace);
-};
+}
 
 .numinput {
     font-weight: 550;
-};
+}
