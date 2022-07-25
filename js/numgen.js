@@ -32,7 +32,7 @@ function RandomNumber() {
 function exporttoHTML(arg) {
     HistoryNum = document.getElementById("HistoryNum");
     const new_element = document.createElement("code");
-    const txt = arg + " ";
+    const txt = arg + ", ";
     new_element.textContent = txt;
     HistoryNum.appendChild(new_element);
     if (boolofcons1 === false){
