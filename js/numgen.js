@@ -10,7 +10,7 @@ This software used "bootstrap" and "chance.js".
 
 And their software available under "Apache license".
 */
-let boolofcons1 = false;
+let boolofcons1;
 let HistoryNum;
 let NewHistory;
 
