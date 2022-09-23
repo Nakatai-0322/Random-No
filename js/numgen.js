@@ -19,15 +19,15 @@ function RandomNumber() {
 	const maxn = Number(document.getElementById("maxn").value);
 	const Randomn = chance.natural({
 		min: minn,
-		max: maxn
+		max: maxn,
 	});
 	document.getElementById("out").innerHTML = Randomn;
 	exporttoHTML(Randomn);
 	console.log(Randomn);
 	if (HistoryNum == null || undefined) {
 		HistoryNum = document.createElement("div");
-	};
-};
+	}
+}
 
 function exporttoHTML(arg) {
 	HistoryNum = document.getElementById("HistoryNum");
@@ -35,8 +35,8 @@ function exporttoHTML(arg) {
 	const txt = arg + " ";
 	new_element.textContent = txt;
 	HistoryNum.appendChild(new_element);
-	if (boolofcons1 === false){
+	if (boolofcons1 === false) {
 		document.getElementById("footer-1").remove();
 		boolofcons1 = true;
-	};
-};
+	}
+}
