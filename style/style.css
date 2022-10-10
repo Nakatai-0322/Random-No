@@ -44,3 +44,7 @@ input {
 .numinput {
 	font-weight: 550;
 }
+
+.out {
+	font-size: 40px;
+}
