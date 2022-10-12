@@ -1,28 +1,35 @@
-<!--
-Random-No
-Copyright (c) 2021~Present Nakatai.
-This software is released under the Apache License.
-https://opensource.org/licenses/Apache-2.0
--->
+# random-no
 
-# Random-No
+This template should help get you started developing with Vue 3 in Vite.
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNakatai-0322%2FRandom-No.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FNakatai-0322%2FRandom-No?ref=badge_shield)
+## Recommended IDE Setup
 
-簡易な乱数生成器です。
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## デモ
+## Customize configuration
 
-![Demo1](https://i.imgur.com/tmp7ELf.gif)
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-![Demo2](https://i.imgur.com/oD7a5CR.gif)
+## Project Setup
 
-## ライセンス
+```sh
+yarn
+```
 
-Apacheライセンスを適用しています。
+### Compile and Hot-Reload for Development
 
-適用される条件等については[リーガルコード](https://raw.githubusercontent.com/Nakatai-0322/Random-No/main/LICENSE)を参照ください。
+```sh
+yarn dev
+```
 
-## License
+### Compile and Minify for Production
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNakatai-0322%2FRandom-No.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNakatai-0322%2FRandom-No?ref=badge_large)
+```sh
+yarn build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+yarn lint
+```

@@ -1,0 +1,49 @@
+@import "./base.css";
+
+body {
+	min-height: 100vh;
+	background: var(--color-background);
+	transition: color 0.5s, background-color 0.5s;
+	line-height: 1.6;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-family: "Montserrat", "Noto Sans JP", sans-serif;
+	--font-monospace: "JetBrains Mono", "Noto Sans JP", monospace;
+	text-align: center;
+	font-size: 20px;
+	color: var(--color-text);
+	font-color: var(--color-text);
+}
+
+p {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.historyNum {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+code {
+	font-family: var(--font-monospace);
+}
+
+input {
+	font-family: var(--font-monospace);
+}
+
+.numinput {
+	font-weight: 550;
+}
+
+.out {
+	font-size: 50px;
+}
+
