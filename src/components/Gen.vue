@@ -1,8 +1,6 @@
 <template>
 	<h1 class="text-info my-4">
-		<a href="/">
-			乱数生成アプリケーション
-		</a>
+		乱数生成アプリケーション
 	</h1>
 	<div class="form">
 		<form id="form" mb="4">
