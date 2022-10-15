@@ -7,9 +7,9 @@ This software is released under the Apache License.
 https://opensource.org/licenses/Apache-2.0
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap);
 
 body {
 	--bs-font-sans-serif: "Montserrat", "Noto Sans JP", sans-serif;
