@@ -22,8 +22,8 @@
 		<div id="HistoryNum" class="HistoryNum"></div>
 	</div>
 	<footer id="footer-1" class="footer-1 fixed-bottom">
-		This tool is created by <a href="https://nakatai.ga">Nakatai</a>.
-		<br> This Program Used <a href="https://chancejs.com/">Chance.js</a>, <a
+		This tool is created by <a href="https://nakatai.ga">Nakatai</a>.<br>
+		This Program Used <a href="https://chancejs.com/">Chance.js</a>, <a
 			href="https://github.com/devicons/devicon/">Devicon</a>&nbsp;and&nbsp;<a
 			href="https://getbootstrap.jp/">bootstrap</a>.
 	</footer>
