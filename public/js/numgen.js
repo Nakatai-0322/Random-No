@@ -20,9 +20,6 @@ function RandomNumber() {
 	document.getElementById("out").innerHTML = Randomn;
 	exporttoHTML(Randomn);
 	console.log(Randomn);
-	if (HistoryNum == null || undefined) {
-		HistoryNum = document.createElement("div");
-	}
 }
 
 function exporttoHTML(arg) {
