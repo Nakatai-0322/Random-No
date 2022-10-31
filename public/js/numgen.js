@@ -5,10 +5,6 @@ Copyright (c) 2022~Present Nakatai.
 
 This software is released under the Apache License.
 https://opensource.org/licenses/Apache-2.0
-
-This software used "bootstrap" and "chance.js".
-
-And their software available under "Apache license".
 */
 let boolofcons1;
 let HistoryNum;
